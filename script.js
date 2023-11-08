@@ -7,15 +7,15 @@ function play(event) {
 
   if (guess === randomNumber) {
     alert(
-      "Awesome! You number" +
+      "Awesome! " +
         guess +
         " was correct. You can be named many things, hungry not being one of them."
     );
   } else {
     alert(
-      "Bummer... You guessed" +
+      " Bummer... You guessed " +
         guess +
-        "and the secret number was " +
+        " and the secret number was " +
         randomNumber
     );
   }
